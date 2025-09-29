@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="inter-normal ">
+    <header>
+        <nav class="navbar display-flex">
+            <div class="logo-name">
+                <h1>Faugei</h1>
+            </div>
+            <div>
+                <ul class="nav-links display-flex">
+                    <li class="nav-item">
+                        <a class="nav-link clrB navs" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clr2 navs" href="">
+                            Shop <span id="shop-count">(0)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clr2 navs" href="">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clr3" href="">
+                            <img class="shopping-cart clr3" src="assets/shopping-cart (1).png" alt="">
+                            Cart (<span id="cart-total">0</span>$)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- our plants section -->
+        <section class="our-plants">
+            <div class="plants">
+                <h3 class="plant-title"><span class="clr4">Our </span><span class="clr3">Plants</span></h3>
+                <p class="plant-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="flower">
+                <div class="flower-image">
+                    <img src="./assets/rose.jpg" alt="">
+                    <p class="image-name">Red Rose</p>
+                    <p class="image-price">50 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <p class="image-name">Lily Blossom</p>
+                    <p class="image-price">20 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="/assets/marigold.jpg" alt="">
+                    <p class="image-name">Marigold</p>
+                    <p class="image-price">20 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="assets/orchid.jpg" alt="">
+                    <p class="image-name">Orchid</p>
+                    <p class="image-price">20 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="/assets/lily.jpg" alt="">
+                    <p class="image-name">Lily </p>
+                    <p class="image-price">30 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="/assets/gypsy.jpg" alt="">
+                    <p class="image-name">Gypsy</p>
+                    <p class="image-price">10 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="assets/white-ginger-lily.jpg" alt="">
+                    <p class="image-name">White Ginger Lily</p>
+                    <p class="image-price">20 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+                <div class="flower-image">
+                    <img src="assets/zarbara.jpg" alt="">
+                    <p class="image-name">Zarbara/p>
+                    <p class="image-price">30 USD</p>
+                    <button class="cart btn-primary">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest deal section -->
+        <section class="latest-deals">
+            <h3 class="deal-title"><span class="clr4 noto-serif-normal">Latest </span>Deals</h3>
+            <p class="deal-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </section>
+        <!-- % offer section -->
+        <section class="display-flex offer-section">
+            <div class="two">
+                <div class="plant-deal-01">
+                    <h4 class="offer-title-01 noto-serif-normal new3">20% Off | Bloom Plant</h4>
+                    <a href="./offer.html" target="_blank" class="click-01">Shop now</a>
+
+                </div>
+                <div class="plant-deal-02">
+                    <h4 class="offer-title-01 noto-serif-normal new3">30% Off | Bloom Plant</h4>
+                    <a href="./offer.html" target="_blank" class="click-01">Shop now</a>
+                </div>
+            </div>
+            <div class="plant-deal-03">
+                <h4 class="offer-title-02 noto-serif-normal new3">60% Off | Bloom Plant</h4>
+                <a href="./offer.html" target="_blank" class="click-02">Shop now</a>
+            </div>
+        </section>
+        <!-- join section -->
+        <section class="join">
+            <div class="join-section display-flex">
+                <h1 class="join-title noto-serif-normal">Join the colorful Bunch</h1>
+                <div class="display-flex join-input-section">
+                    <div class="pc3">
+                        <input placeholder="Write email" type="email" name="" id="email">
+                    </div>
+                    <div>
+                        <button class="btn-primary btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="display-flex footer-section">
+            <div class="footer-logo"><img src="assets/logo.png" alt="">
+                <p class="footer-description">Indulgeyour senses with the beauty and fragrance of our fresh flower shop.
+                </p>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-list">Home</li>
+                    <li class="footer-list">About us</li>
+                    <li class="footer-list">Blog</li>
+                    <li class="footer-list">FAQ</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-list">Features</li>
+                    <li class="footer-list">Pricing</li>
+                    <li class="footer-list">Privacy Policy</li>
+                    <li class="footer-list">Terms of Service</li>
+                    <li>Help center</li>
+                </ul>
+            </div>
+            <div class="footer-icon">
+                <img class="icon" src="assets/icon-linkedin.png" alt="">
+                <img class="icon" src="assets/icon-twitter.png" alt="">
+                <img class="icon" src="assets/icon-facebook.png" alt="">
+                <img src="assets/icon-youtube.png" alt="">
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
